@@ -49,18 +49,18 @@ footer{border-top:1px solid var(--line);padding:16px 0;color:var(--muted);font-s
 <script>
 /* ===== DATA: edit this object to update the page ===== */
 const data = {
-  lastUpdated: "Last updated: Nov 13, 2026, 2:22 PM CST — checked 3x daily",
+  lastUpdated: "Last updated: Nov 13, 2026, 10:15 PM CST — checked 3x daily",
   // Seat-count tables: [party, up was, up now, all was, all now]
   counts: {
     Senate:   [["D",13,21,45,53],["R",22,12,53,43],["I",0,0,2,2],["Not called",0,1,0,1]],
-    Governor: [["D",18,23,24,29],["R",18,12,26,20],["I",0,0,0,0],["Not called",0,1,0,1]]
+    Governor: [["D",18,24,24,30],["R",18,12,26,20],["I",0,0,0,0],["Not called",0,0,0,0]]
   },
   bigPicture: [
     "Democrats won control of the U.S. Senate, which Republicans controlled before this election.",
     "Democrats (counting 2 independents who vote with them) will have at least 55 of 100 Senate seats; 51 is a majority.",
     "Democrats took 8 Senate seats from Republicans; Republicans took none from Democrats.",
-    "Democrats took 5 governor's offices from Republicans (GA, IA, NV, OH, TX) and lost none so far, going from 24 to 29 of 50 governors with 1 still uncalled (Kansas stayed Democratic: Holscher, D, called Nov 12).",
-    "2 races are still not called by the AP: Senate and Governor in Alaska (ranked-choice results due Nov 18)."
+    "Democrats took 6 governor's offices from Republicans (AK, GA, IA, NV, OH, TX) and lost none, going from 24 to 30 of 50 governors; every governor race is now called (Alaska: Kreiss-Tomkins, D, projected by CNN Nov 12; the AP had not called it as of Nov 13).",
+    "1 race is still not called: the Alaska Senate race (Peltola, D, leads Sullivan, R, 49.1% to 46.8%; final counting Nov 18)."
   ],
   bigPictureNote: "The AP also projects Democrats won the U.S. House, so they will control both halves of Congress.",
   surprises: [
@@ -72,7 +72,7 @@ const data = {
     "North Carolina Senate (Cooper, D): the state had not elected a Democratic senator since 2008 (CBS News).",
     "Maine Senate (Jackson, D): unseated Susan Collins, a Republican in her fifth term (CBS News).",
     "Ohio Senate (Brown, D): Sherrod Brown lost a Senate race in 2024, then beat sitting Sen. Jon Husted this year (CBS News).",
-    "Alaska Governor: not called. Democrat Kreiss-Tomkins has just over 50% (50.05%) of first-choice votes, which would avoid ranked-choice counting if it holds; final counting is Nov 18, and the AP has not called it (Juneau Independent, Anchorage Daily News).",
+    "Alaska Governor (Kreiss-Tomkins, D): CNN projected him the winner after he topped 50% of first-choice votes; he will be Alaska's first Democratic governor since 2002, and Republican opponents Bronson and Wilson conceded. The AP had not called it as of Nov 13 (Alaska Beacon, Anchorage Daily News).",
     "Kansas Governor (Holscher, D): won by about 7,000 votes (about 0.7 points) over Republican Ty Masterson, keeping the office Democratic; AP called it Nov 12, nine days after Election Day, and Masterson conceded (AP, Axios).",
     "Nevada Governor (Ford, D): beat the sitting Republican governor, Joe Lombardo (AP results).",
     "Mississippi Senate (Colom, D): beat Republican incumbent Cindy Hyde-Smith by about 3,000 votes; Colom will be Mississippi's first Black senator since Reconstruction (AP)."
@@ -125,7 +125,7 @@ const data = {
   ],
   governor: [
     ["AL","Alabama","Governor","Kay Ivey","R","Tommy Tuberville","R"],
-    ["AK","Alaska","Governor","Mike Dunleavy","R",null,null],
+    ["AK","Alaska","Governor","Mike Dunleavy","R","Jonathan Kreiss-Tomkins","D"],
     ["AZ","Arizona","Governor","Katie Hobbs","D","Katie Hobbs","D"],
     ["AR","Arkansas","Governor","Sarah Huckabee Sanders","R","Sarah Huckabee Sanders","R"],
     ["CA","California","Governor","Gavin Newsom","D","Xavier Becerra","D"],
@@ -162,6 +162,7 @@ const data = {
     ["WY","Wyoming","Governor","Mark Gordon","R","Eric Barlow","R"]
   ],
   sources: [
+    ["JKT tops 50% of first-choice votes for Alaska governor; CNN call, opponents concede","alaskabeacon.com","https://alaskabeacon.com/2026/11/13/jkt-tops-50-of-first-choice-votes-for-alaska-governor-republican-opponents-concede/"],
     ["Democrat Cindy Holscher wins Kansas governor race","apnews.com","https://apnews.com/article/kansas-governor-midterm-election-cindy-holscher-c9bb46dfd593fa7182a6bc93722ce552"],
     ["Scott Colom wins Mississippi Senate race (AP live updates)","apnews.com","https://apnews.com/live/trump-congress-midterm-elections-politics-news-updates-11-11-2026"],
     ["AP race calls (Guardian live results)","theguardian.com","https://www.theguardian.com/us-news/ng-interactive/2026/nov/04/midterm-elections-full-results-senate-house-governor-races"],
